@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+html {
+  scroll-behaviour: smooth;
+}
+
+body {
+  @apply bg-amber-800/25 text-amber-950
+}
+
+.menu-btn{
+  @apply w-10 h-10 grid place-items-center bg-amber-50/10 rounded-xl
+  ring-inset ring-1 ring-amber-50/[0.02] backdrop-blur-2xl
+  hover:bg-amber-50/15 md:hidden transition-[transform,shadow]
+  active:scale-95
+}
+
+.nav-items {
+  @apply md:text-[18px] font-bold md:flex justify-between gap-5
+   
+}
+
+.nav-link {
+   @apply text-amber-950/70 hover:text-amber-950/40
+}
+
+.container {
+  @apply px-4 lg:px-18 xl:max-w-6xl flex bg-amber-800/5 rounded-xl h-[400px] xl:h-[600px]
+}
+
+
+/*
+  button
+*/
+
+.btn-main {
+  @apply bg-amber-800/95 text-white p-2 w-[150px] text-center rounded-3xl font-bold mt-8 md:w-40
+  md:text-xl
+}
+
+
+.inpt-feild {
+  @apply w-120 bg-zinc-50 h-9 text-amber-800/60 outline-none
+  rounded-2xl
+}
