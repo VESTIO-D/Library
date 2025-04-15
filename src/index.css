@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  @apply px-4 lg:px-18 xl:max-w-6xl flex bg-amber-800/5 rounded-xl h-[400px] xl:h-[600px]
+  @apply px-4 lg:px-18 xl:max-w-6xl bg-amber-800/5 rounded-xl h-[400px] xl:h-[600px]
 }
 
 
@@ -40,6 +40,6 @@ body {
 
 
 .inpt-feild {
-  @apply w-120 bg-zinc-50 h-9 text-amber-800/60 outline-none
+  @apply lg:w-120 w-full bg-zinc-50 h-9 text-amber-800/60 outline-none
   rounded-2xl
 }
