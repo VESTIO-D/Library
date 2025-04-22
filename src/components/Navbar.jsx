@@ -13,12 +13,12 @@ const Navbar = () => {
     },
     {
       label: 'Books',
-      link: '#about',
+      link: '#books',
       className: 'nav-link'
     },
     {
       label: 'Genre',
-      link: '#work',
+      link: '#',
       className: 'nav-link'
     },
     {

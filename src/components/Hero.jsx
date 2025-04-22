@@ -6,7 +6,8 @@ const Hero = () => {
     <>
       <section 
       className="pt-28 lg:pt-36 justify-center flex"
-      id="#home">
+      id="home"
+      >
         
         <div className="container lg:grid lg:grid-cols-2 flex items-center justify-center
         lg:gap-15 mt-10 p-5 md:p-0">

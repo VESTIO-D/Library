@@ -18,4 +18,15 @@ export const getBooks = async () => {
 
 };
 
+export const getBookById = async(id) => {
+    try {
+        const response = await AxiosInstance.get(`api/books/${id}/`);
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching data  from the server', error);
+        return [];
+    }
+};
+
+
 export { BASE_URL };

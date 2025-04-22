@@ -40,6 +40,13 @@ body {
 
 
 .inpt-feild {
-  @apply lg:w-120 w-full bg-zinc-50 h-9 text-amber-800/60 outline-none
-  rounded-2xl
+  @apply lg:w-120 w-full bg-zinc-50 h-9 text-amber-800/40 outline-none px-6
+  rounded-2xl text-lg font-bold shadow-2xl
+}
+
+.head {
+  @apply text-center  font-bold text-[24px] lg:text-xl 
+}
+.subhead {
+  @apply text-center font-semibold text-2xl text-amber-950/70
 }

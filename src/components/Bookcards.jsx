@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { getBooks, BASE_URL } from '../services/api';
 
 const Bookcards = () => {
@@ -12,7 +13,7 @@ const Bookcards = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
       {books.map((book) => (
-        <a href={book.link} key={book.id} className="transition-transform hover:scale-105 duration-300">
+         <Link to={`/book/${book.id}`} key={book.id} className="transition-transform hover:scale-105 duration-300">
           <div className="h-[400px] overflow-hidden bg-amber-800/10 flex flex-col items-center justify-center
            p-3 rounded-lg shadow-md gap-3 py-20">
             <img
@@ -24,7 +25,7 @@ const Bookcards = () => {
             />
             <span className="text-amber-800 font-semibold text-lg lg:text-sm text-center">{book.bname}</span>
           </div>
-        </a>
+        </Link>
       ))}
     </div>
   );
