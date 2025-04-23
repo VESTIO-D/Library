@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header 
     className="fixed left-0 top-0 w-full h-20 flex
-    items-center z-40 bg-gradient-to-b from-amber-800 to-zinc-300/0"
+    items-center z-40 bg-gradient-to-b from-amber-800 to-zinc-300"
     >
         <div 
          className="px-4 max-w-screen-2xl w-full mx-auto flex justify-between items-center
@@ -42,12 +42,13 @@ const Header = () => {
                 
             </div>
         )}
-
+        {!isBookDetails && (
             <div className="md:flex justify-end items-end rounded-2xl hidden">
 
                 <span className="material-symbols-sharp  hover:bg-amber-800/50">account_circle</span>
 
             </div>
+        )}
 
         </div>
     </header>

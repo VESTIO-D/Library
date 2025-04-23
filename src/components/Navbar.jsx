@@ -17,11 +17,6 @@ const Navbar = () => {
       className: 'nav-link'
     },
     {
-      label: 'Genre',
-      link: '#',
-      className: 'nav-link'
-    },
-    {
       label: 'About Us',
       link: '#about',
       className: 'nav-link'

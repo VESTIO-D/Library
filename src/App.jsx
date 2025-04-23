@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Bookcards from './components/Bookcards';
 import About from './components/About';
+import Contact from './components/Contact';
 import Bookdetails from './components/Bookdetails';
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
             <>
               <Hero />
               <About />
+              <Contact />
             </>
           }
         />

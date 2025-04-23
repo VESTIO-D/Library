@@ -41,7 +41,7 @@ body {
 
 .inpt-feild {
   @apply lg:w-120 w-full bg-zinc-50 h-9 text-amber-800/40 outline-none px-6
-  rounded-2xl text-lg font-bold shadow-2xl
+  rounded-sm text-lg font-bold shadow-2xl
 }
 
 .head {
@@ -49,4 +49,13 @@ body {
 }
 .subhead {
   @apply text-center font-semibold text-2xl text-amber-950/70
+}
+
+.frm {
+  @apply grid items-center justify-between gap-2 lg:gap-5 p-4
+}
+
+.inp {
+  @apply  bg-zinc-50 h-9 text-amber-800/40 outline-none px-6
+  rounded-sm lg:text-lg font-bold shadow-2xl text-sm
 }

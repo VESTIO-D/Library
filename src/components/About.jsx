@@ -17,7 +17,7 @@ const About = () => {
           <div className="flex flex-col gap-5 justify-center items-center p-4">
             <h1 className="head">Mission & Vission</h1>
 
-            <div>
+            <div className="bg-zinc-200/40 grid gap-2 p-3 rounded-lg">
               <h1 className="subhead mb-4">
                 Our Vision
               </h1>
@@ -27,7 +27,7 @@ const About = () => {
               </p>
             </div>
 
-            <div>
+            <div className="bg-zinc-200/40 grid gap-2 p-3 rounded-lg">
               <h1 className="subhead mb-4">
                 Our Mission 
               </h1>
