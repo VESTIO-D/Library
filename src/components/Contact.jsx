@@ -5,6 +5,7 @@ const Contact = () => {
     <>
      <section 
       className="flex justify-center pt-28 lg:pt-36"
+      id='contact'
      >
 
         <div className="container flex flex-col justify-center items-center">

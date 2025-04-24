@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
 import Bookdetails from './components/Bookdetails';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         />
         <Route path="/book/:id" element={<Bookdetails />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
